@@ -81,10 +81,11 @@ function Navbar() {
               </li>
               <li>
                 <button
-                  href="#getstarted"
                   className="mybtn block py-2 text-white font-bold py-2 px-4 rounded"
                 >
+                  <a href="./login">
                   Get Started
+                  </a>
                 </button>
               </li>
             </ul>

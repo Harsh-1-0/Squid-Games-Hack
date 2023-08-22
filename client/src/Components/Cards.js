@@ -5,6 +5,10 @@ import Navbar from "./Header";
 function Cards(){
     return(
         <div class="mybg">
+            <div className="flex justify-center items-center flex-col ">
+                <div className="text-[#23C6BB] text-2xl">Services Offered</div>
+                <div className="text-6xl">We Have Something For Everybody!</div>
+            </div>
             <div className="flex gap-8 justify-center py-16">
                 <div className="mycard flex flex-col justify-center items-center bg-white gap-5">
                     <img className="h-20 object-center" src="./images/pic1.png"></img>
